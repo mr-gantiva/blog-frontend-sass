@@ -1,4 +1,5 @@
 @import '../abstracts/mixins';
+@import '../abstracts/variables';
 
 .main__novedades,
 .main__populares {
@@ -58,6 +59,12 @@
 
 
 /* SUSCRIPCION */
+.article__title--form {
+    color: $secondary-color;
+    @include respond-to(small){
+        text-align: center;
+    }
+}
 .suscripcion {
     background-color: $bg-green;
     padding: 50px;

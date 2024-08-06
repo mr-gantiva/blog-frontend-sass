@@ -56,6 +56,10 @@ h3 {
   font-size: clamp(1rem, 2vw, 1.125rem);
 }
 
+h2 {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
 /* HEADER */
 .header {
   width: 100%;
@@ -245,6 +249,7 @@ h3 {
 @media (300px <= width <= 768px) {
   .image__article--blog {
     width: 100%;
+    min-height: 200px;
   }
 }
 
@@ -369,6 +374,15 @@ h3 {
 }
 
 /* SUSCRIPCION */
+.article__title--form {
+  color: #ffffff;
+}
+@media (300px <= width <= 768px) {
+  .article__title--form {
+    text-align: center;
+  }
+}
+
 .suscripcion {
   background-color: #729E2E;
   padding: 50px;

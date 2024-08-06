@@ -126,5 +126,6 @@
     margin: 30px auto;
     @include respond-to(small){
         width: 100%;
+        min-height: 200px;
     }
 }
