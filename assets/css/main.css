@@ -451,7 +451,7 @@ h3 {
 }
 @media (300px <= width <= 768px) {
   .blog__content {
-    padding: 20px;
+    padding: 30px;
   }
 }
 
