@@ -37,6 +37,7 @@
 
 .populares__content {
     flex-wrap: wrap;
+    @include set-margin(50px,50px);
 }
 
 /* CATEGORIAS */

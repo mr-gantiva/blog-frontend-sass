@@ -348,6 +348,8 @@ h3 {
 
 .populares__content {
   flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* CATEGORIAS */
@@ -459,6 +461,8 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 @media (300px <= width <= 768px) {
   .recomendados__content {
