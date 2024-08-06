@@ -19,13 +19,22 @@
 
 <body>
     <header class="header border__gray">
-        <nav class="navbar">
-            <a href="../../index.html">
-                <img class="navbar__image" src="../images/logos/adl.png" alt="">
-            </a>
-            <a href="../../index.html">
-                <h3 class="nabvar__title">Blog FrontEnd</h3>
-            </a>
+        <nav class="navbar" data-aos="fade-up">
+            <div class="navbar__logo">
+                <a href="../../index.html">
+                    <img class="navbar__image" src="../images/logos/adl.png" alt="">
+                </a>
+                <a href="../../index.html">
+                    <h3 class="nabvar__title">Blog FrontEnd</h3>
+                </a>
+            </div>
+            <div class="navbar__list">
+                <ul class="navbar__list--items">
+                    <li class="link__items"><a href="./login.html">Login</a></li>
+                    <li class="link__items link__items--active disabled"><a href="#">Registro</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
