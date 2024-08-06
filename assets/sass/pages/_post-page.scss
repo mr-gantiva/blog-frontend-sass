@@ -1,0 +1,21 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+.main__blog, .main__recomendados {
+    margin: 50px 0;
+}
+.blog__content {
+    padding: 50px;
+    background-color: $bg-post;
+    border-radius: 15px;
+    @include respond-to(small){
+        padding: 20px;
+    }
+}
+.recomendados__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include respond-to(small){
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Frontend</title>
+    <!-- Fonts Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Libreria AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <header class="header border__gray">
+        <nav class="navbar" data-aos="fade-up">
+            <div class="navbar__logo">
+                <a href="./index.html">
+                    <img class="navbar__image" src="./assets/images/logos/adl.png" alt="">
+                </a>
+                <a href="./index.html">
+                    <h3 class="nabvar__title">Blog FrontEnd</h3>
+                </a>
+            </div>
+            <div class="navbar__list">
+                <ul class="navbar__list--items">
+                    <li class="link__items"><a href="./assets/views/login.html">Login</a></li>
+                    <li class="link__items"><a href="./assets/views/registro.html">Registro</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="main__novedades">
+            <div class="novedades__content">
+                <!-- Left Novedades -->
+                <article class="content__article" data-aos="fade-right">
+                    <h2 class="article__title">Novedades</h2>
+                    <div class="box__image">
+                        <a href="./assets/views/post-bootstrap.html" rel="noopener noreferrer">
+                            <img class="image__article" src="./assets/images/posts/bootstrap.png"
+                                alt="Imagen de Bootstrap Logo">
+                        </a>
+                    </div>
+                    <p class="article__date">24 Noviembre, 2022</p>
+                    <h3 class="article__title">Modifica el tema de Bootstrap con variables CSS</h3>
+                    <div class="tag">
+                        <img class="tag__image" src="./assets/images/logos/adl.png" alt="">
+                        <p class="tag__description">Desafio Latam</p>
+                    </div>
+                </article>
+                <!-- Right Novedades -->
+                <aside class="content__aside" data-aos="fade-left">
+                    <article class="content__article content__article--aside">
+                        <div class="box__image box__image--aside">
+                            <img class="image__article image__article--aside"
+                                src="./assets/images/posts/Herencia-JS.png" alt="Imagen de Bootstrap Logo">
+                        </div>
+                        <div class="info__box">
+                            <p class="article__date article__date--aside">24 Noviembre, 2022</p>
+                            <h3 class="article__title article__title--aside">Herencia en JavaScript</h3>
+                            <div class="tag">
+                                <img class="tag__image tag__image--small" src="./assets/images/logos/adl.png" alt="">
+                                <p class="tag__description tag__description--aside">Desafio Latam</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="content__article content__article--aside">
+                        <div class="box__image box__image--aside">
+                            <img class="image__article image__article--aside"
+                                src="./assets/images/posts/Etiquetas-semánticas-HTML.png"
+                                alt="Imagen de Bootstrap Logo">
+                        </div>
+                        <div class="info__box">
+                            <p class="article__date article__date--aside">24 Noviembre, 2022</p>
+                            <h3 class="article__title article__title--aside">Etiquetas semánticas</h3>
+                            <div class="tag">
+                                <img class="tag__image tag__image--small" src="./assets/images/logos/adl.png" alt="">
+                                <p class="tag__description tag__description--aside">Desafio Latam</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="content__article content__article--aside">
+                        <div class="box__image box__image--aside">
+                            <img class="image__article image__article--aside"
+                                src="./assets/images/posts/reactComponents.png" alt="Imagen de Bootstrap Logo">
+                        </div>
+                        <div class="info__box">
+                            <p class="article__date article__date--aside">24 Noviembre, 2022</p>
+                            <h3 class="article__title article__title--aside">Componentes React</h3>
+                            <div class="tag">
+                                <img class="tag__image tag__image--small" src="./assets/images/logos/adl.png" alt="">
+                                <p class="tag__description tag__description--aside">Desafio Latam</p>
+                            </div>
+                        </div>
+                    </article>
+                </aside>
+            </div>
+            <hr class="border__gray">
+        </section>
+
+
+
+        <section class="main__populares">
+
+            <div class="populares__box" data-aos="fade-up-right">
+                <!-- Left populares -->
+                <div class="populares">
+                    <h2 class="article__title">Populares</h2>
+                    <div class="populares__content">
+                        <article class="content__article content__article--small">
+                            <div class="box__image box__image--small">
+                                <img class="image__article image__article--small"
+                                    src="./assets/images/posts/vue-components.png" alt="Imagen de Bootstrap Logo">
+                            </div>
+                            <p class="article__date">24 Noviembre, 2022</p>
+                            <h3 class="article__title article__title--height">Componentes Vue</h3>
+                            <div class="tag">
+                                <img class="tag__image tag__image--small" src="./assets/images/logos/adl.png" alt="">
+                                <p class="tag__description">Desafio Latam</p>
+                            </div>
+                        </article>
+                        <article class="content__article content__article--small">
+                            <div class="box__image box__image--small">
+                                <img class="image__article image__article--small" src="./assets/images/posts/api-js.png"
+                                    alt="Imagen de Bootstrap Logo">
+                            </div>
+                            <p class="article__date">24 Noviembre, 2022</p>
+                            <h3 class="article__title article__title--height">Consumo de API con JavaScript</h3>
+                            <div class="tag">
+                                <img class="tag__image tag__image--small" src="./assets/images/logos/adl.png" alt="">
+                                <p class="tag__description">Desafio Latam</p>
+                            </div>
+                        </article>
+
+                        <article class="content__article content__article--small">
+                            <div class="box__image box__image--small">
+                                <img class="image__article image__article--small" src="./assets/images/posts/sass.jpg"
+                                    alt="Imagen de Bootstrap Logo">
+                            </div>
+                            <p class="article__date">24 Noviembre, 2022</p>
+                            <h3 class="article__title article__title--height">CSS reutilizable con Sass</h3>
+                            <div class="tag">
+                                <img class="tag__image tag__image--small" src="./assets/images/logos/adl.png" alt="">
+                                <p class="tag__description">Desafio Latam</p>
+                            </div>
+                        </article>
+                        <article class="content__article content__article--small">
+                            <div class="box__image box__image--small">
+                                <img class="image__article image__article--small"
+                                    src="./assets/images/posts/bootstrap.png" alt="Imagen de Bootstrap Logo">
+                            </div>
+                            <p class="article__date">24 Noviembre, 2022</p>
+                            <h3 class="article__title article__title--height">Componentes Bootstrap</h3>
+                            <div class="tag">
+                                <img class="tag__image tag__image--small" src="./assets/images/logos/adl.png" alt="">
+                                <p class="tag__description">Desafio Latam</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Right populares -->
+                <section class="categorias">
+                    <h2 class="article__title" data-aos="fade-up-left">Categorias</h2>
+                    <aside class="content__aside">
+                        <section class="categorias__content">
+                            <article class="categorias__item categorias__item--background" data-aos="fade-up-left">
+                                <img class="item__imagen" src="./assets/images/logos/html.png" alt="Logo HTML">
+                                <h3 class="item__title">HTML</h3>
+                            </article>
+
+                            <article class="categorias__item categorias__item--background" data-aos="fade-up-left">
+                                <img class="item__imagen" src="./assets/images/logos/js.png" alt="Logo HTML">
+                                <h3 class="item__title">JavaScript</h3>
+                            </article>
+
+                            <article class="categorias__item categorias__item--background" data-aos="fade-up-left">
+                                <img class="item__imagen" src="./assets/images/logos/css.png" alt="Logo HTML">
+                                <h3 class="item__title">CSS</h3>
+                            </article>
+
+                            <article class="categorias__item categorias__item--background" data-aos="fade-up-left">
+                                <img class="item__imagen" src="./assets/images/logos/react.png" alt="Logo HTML">
+                                <h3 class="item__title">React</h3>
+                            </article>
+
+                            <article class="categorias__item categorias__item--background" data-aos="fade-up-left">
+                                <img class="item__imagen" src="./assets/images/logos/vue.png" alt="Logo HTML">
+                                <h3 class="item__title">Vue</h3>
+                            </article>
+
+                            <article class="categorias__item categorias__item--background" data-aos="fade-up-left">
+                                <img class="item__imagen" src="./assets/images/logos/bootstrap-logo.png"
+                                    alt="Logo HTML">
+                                <h3 class="item__title">Bootstrap</h3>
+                            </article>
+                        </section>
+                    </aside>
+                </section>
+            </div>
+        </section>
+
+        <section class="suscripcion" data-aos="fade-up">
+            <form class="form__suscripcion" action="">
+                <div class="form__title">
+                    <h2 class="article__title article__title--form">Mantente actualizado sobre el Desarrollo Front End
+                </div>
+                <div class="form__content">
+                    <div class="content__input">
+                        <input class="input__item input__item--centered" type="email" name="emailSuscripcion"
+                            id="emailSuscripcion">
+                    </div>
+                    <div class="content__button">
+                        <button class="btn btn__suscribete poppins-bold" disabled="disabled">
+                            Suscribete
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <hr class="border__gray">
+    <footer>
+        <nav class="navbar">
+            <img class="navbar__image" src="./assets/images/logos/adl.png" alt="">
+            <h3 class="nabvar__title">Blog FrontEnd</h3>
+        </nav>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

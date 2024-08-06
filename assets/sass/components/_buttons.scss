@@ -1,0 +1,29 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+/* FORMULARIO */
+.btn {
+    @include form-styles;
+    border: 1px solid $bg-post;
+}
+.btn__registro {
+    color: #fff;
+    background-color: $bg-green;
+}
+.btn__google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.img__google {
+    width: 30px;
+}
+
+/* SUBSCRIBETE */
+.btn__suscribete {
+    background-color: $bg-post;
+    color: $primary-color;
+    @include respond-to(small){
+        margin: 0;
+    }
+}

@@ -1,0 +1,12 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+.input__item {
+    @include form-styles;
+    border: 1px solid $bg-post;
+    color: $bg-post;
+}
+.input__item--centered {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}

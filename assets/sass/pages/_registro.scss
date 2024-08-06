@@ -1,0 +1,18 @@
+.formulario {
+    width: 100%;
+    height: calc(100vh - 160px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulario__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    @include respond-to(small){
+        min-width: 300px;
+    }
+}

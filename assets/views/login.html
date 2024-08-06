@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Frontend</title>
+    <!-- Fonts Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Libreria AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+    <header class="header border__gray">
+        <nav class="navbar" data-aos="fade-up">
+            <div class="navbar__logo">
+                <a href="../../index.html">
+                    <img class="navbar__image" src="/assets/images/logos/adl.png" alt="">
+                </a>
+                <a href="../../index.html">
+                    <h3 class="nabvar__title">Blog FrontEnd</h3>
+                </a>
+            </div>
+            <div class="navbar__list">
+                <ul class="navbar__list--items">
+                    <li class="link__items link__items--active"><a href="./assets/">Login</a></li>
+                    <li class="link__items"><a href="/assets/views/registro.html">Registro</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="formulario" data-aos="fade-right">
+            <h2 class="article__title poppins-light">Accede a tu cuenta</h2>
+            <form action="" class="formulario__content">
+                <input class="input__item" type="email" name="email" id="email" placeholder="Email">
+                <input class="input__item" type="password" name="password" id="password" placeholder="Contraseña">
+                <button class="btn btn__registro  poppins-bold" type="submit">Ingresar</button>
+                <button class="btn btn__google poppins-bold" type="submit"><img class="img__google"
+                        src="../images/logos/Google__G__logo.svg.webp" alt="Logo Google">Iniciar sesión
+                    con Google</button>
+            </form>
+            <p>¿Ya tienes una cuenta? <a href="#"><b>Inicia sesión</b></a></p>
+        </section>
+    </main>
+    <hr class="border__gray">
+    <footer>
+        <nav class="navbar">
+            <img class="navbar__image" src="/assets/images/logos/adl.png" alt="">
+            <h3 class="nabvar__title">Blog FrontEnd</h3>
+        </nav>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/assets/js/script.js"></script>
+
+</body>
+
+</html>
