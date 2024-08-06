@@ -22,7 +22,7 @@ Puedes ver la página en vivo aquí: [Blog Frontend con Sass Landing Page](https
 
 1. Clona este repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/blog-frontend.git
+    git clone https://github.com/mr-gantiva.github.io/blog-frontend-sass.git
     ```
 2. Navega al directorio del proyecto:
     ```bash
