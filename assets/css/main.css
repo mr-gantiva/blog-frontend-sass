@@ -296,6 +296,7 @@ h2 {
   gap: 10px;
   background-color: #f0f0f0;
   transition: all 0.25s ease;
+  color: #000000;
 }
 .btn__google:hover {
   background-color: #cdcdcd;
