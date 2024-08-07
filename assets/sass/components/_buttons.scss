@@ -21,6 +21,7 @@
     gap: 10px;
     background-color: $bg-btn-google;
     transition: all 0.25s ease;
+    color: $primary-color;
     &:hover {
         background-color: $bg-post;
     }
