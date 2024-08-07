@@ -277,11 +277,16 @@ h2 {
   margin: 10px;
   border-radius: 10px;
   border: 1px solid #cdcdcd;
+  cursor: pointer;
 }
 
 .btn__registro {
   color: #fff;
   background-color: #729E2E;
+  transition: all 0.25s ease;
+}
+.btn__registro:hover {
+  background-color: #445f1b;
 }
 
 .btn__google {
@@ -289,6 +294,11 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  background-color: #f0f0f0;
+  transition: all 0.25s ease;
+}
+.btn__google:hover {
+  background-color: #cdcdcd;
 }
 
 .img__google {
